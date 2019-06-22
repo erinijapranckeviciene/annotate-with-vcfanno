@@ -10,7 +10,9 @@ How to try it
 ------------------
 
 git clone
+
 cd annotate-with-vcfanno
+
 vcfanno -p n -base-path /path/to/bcbio-nextgen/genome/HS/build -lua cheop.lua cheop.conf NA12878.chr22.example.vcf  
 
 Annotation data sources
