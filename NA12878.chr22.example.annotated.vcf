@@ -226,71 +226,65 @@
 ##INFO=<ID=cheo_AF_SAS,Number=A,Type=Float,Description="calculated field: cheo_AF_SAS">
 ##INFO=<ID=cheo_AF_TOTAL,Number=A,Type=Float,Description="calculated field: cheo_AF_TOTAL">
 ##INFO=<ID=cheo_AN_TOTAL,Number=.,Type=Integer,Description="calculated field: cheo_AN_TOTAL">
-##INFO=<ID=cheo_CADD_phred,Number=1,Type=String,Description="calculated by first of overlapping values in column 79 from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/dbNSFP.txt.gz">
-##INFO=<ID=cheo_ENTREZID,Number=.,Type=String,Description="calculated by uniq of overlapping values in column 6 from Exons-chr22-AgilentCREv2.bed.gz">
-##INFO=<ID=cheo_EXON,Number=.,Type=String,Description="calculated by uniq of overlapping values in column 4 from Exons-chr22-AgilentCREv2.bed.gz">
-##INFO=<ID=cheo_GENENAME,Number=.,Type=String,Description="calculated by uniq of overlapping values in column 7 from Exons-chr22-AgilentCREv2.bed.gz">
+##INFO=<ID=cheo_ENTREZID,Number=.,Type=String,Description="calculated by uniq of overlapping values in column 6 from variation/Exons-chr22-AgilentCREv2.bed.gz">
+##INFO=<ID=cheo_EXON,Number=.,Type=String,Description="calculated by uniq of overlapping values in column 4 from variation/Exons-chr22-AgilentCREv2.bed.gz">
+##INFO=<ID=cheo_GENENAME,Number=.,Type=String,Description="calculated by uniq of overlapping values in column 7 from variation/Exons-chr22-AgilentCREv2.bed.gz">
 ##INFO=<ID=cheo_GeneDescription,Number=.,Type=String,Description="calculated field: cheo_GeneDescription">
-##INFO=<ID=cheo_Gerp_score,Number=1,Type=String,Description="calculated by first of overlapping values in column 107 from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/dbNSFP.txt.gz">
 ##INFO=<ID=cheo_GnomadLof,Number=.,Type=String,Description="calculated field: cheo_GnomadLof">
 ##INFO=<ID=cheo_MIM,Number=.,Type=Integer,Description="calculated field: cheo_MIM">
 ##INFO=<ID=cheo_OMIMp,Number=.,Type=String,Description="calculated field: cheo_OMIMp">
 ##INFO=<ID=cheo_ORPHA,Number=.,Type=String,Description="calculated field: cheo_ORPHA">
-##INFO=<ID=cheo_Revel_score,Number=1,Type=String,Description="calculated by first of overlapping values in column 70 from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/dbNSFP.txt.gz">
-##INFO=<ID=cheo_Vest3_score,Number=1,Type=String,Description="calculated by first of overlapping values in column 58 from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/dbNSFP.txt.gz">
-##INFO=<ID=cheo_phastCons20way_mammalian,Number=1,Type=String,Description="calculated by first of overlapping values in column 115 from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/dbNSFP.txt.gz">
-##INFO=<ID=cheo_phyloP20way_mammalian,Number=1,Type=String,Description="calculated by first of overlapping values in column 111 from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/dbNSFP.txt.gz">
-##INFO=<ID=gnomADe_AC,Number=A,Type=Integer,Description="Alternate allele count for samples (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AC_AFR,Number=A,Type=Integer,Description="Alternate allele count for samples of African-American ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AC_AMR,Number=A,Type=Integer,Description="Alternate allele count for samples of Latino ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AC_ASJ,Number=A,Type=Integer,Description="Alternate allele count for samples of Ashkenazi Jewish ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AC_EAS,Number=A,Type=Integer,Description="Alternate allele count for samples of East Asian ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AC_FIN,Number=A,Type=Integer,Description="Alternate allele count for samples of Finnish ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AC_NFE,Number=A,Type=Integer,Description="Alternate allele count for samples of non-Finnish European ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AC_OTH,Number=A,Type=Integer,Description="Alternate allele count for samples of uncertain ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AC_SAS,Number=A,Type=Integer,Description="Alternate allele count for samples of South Asian ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AF,Number=A,Type=Float,Description="Alternate allele frequency in samples (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AF_AFR,Number=A,Type=Float,Description="Alternate allele frequency in samples of African-American ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AF_AMR,Number=A,Type=Float,Description="Alternate allele frequency in samples of Latino ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AF_ASJ,Number=A,Type=Float,Description="Alternate allele frequency in samples of Ashkenazi Jewish ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AF_EAS,Number=A,Type=Float,Description="Alternate allele frequency in samples of East Asian ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AF_FIN,Number=A,Type=Float,Description="Alternate allele frequency in samples of Finnish ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AF_NFE,Number=A,Type=Float,Description="Alternate allele frequency in samples of non-Finnish European ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AF_OTH,Number=A,Type=Float,Description="Alternate allele frequency in samples of uncertain ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AF_SAS,Number=A,Type=Float,Description="Alternate allele frequency in samples of South Asian ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AN,Number=A,Type=Integer,Description="Total number of alleles in samples (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AN_AFR,Number=A,Type=Integer,Description="Total number of alleles in samples of African-American ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AN_AMR,Number=A,Type=Integer,Description="Total number of alleles in samples of Latino ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AN_ASJ,Number=A,Type=Integer,Description="Total number of alleles in samples of Ashkenazi Jewish ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AN_EAS,Number=A,Type=Integer,Description="Total number of alleles in samples of East Asian ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AN_FIN,Number=A,Type=Integer,Description="Total number of alleles in samples of Finnish ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AN_NFE,Number=A,Type=Integer,Description="Total number of alleles in samples of non-Finnish European ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AN_OTH,Number=A,Type=Integer,Description="Total number of alleles in samples of uncertain ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADe_AN_SAS,Number=A,Type=Integer,Description="Total number of alleles in samples of South Asian ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_exome.vcf.gz)">
-##INFO=<ID=gnomADg_AC,Number=A,Type=Integer,Description="Alternate allele count for samples (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AC_AFR,Number=A,Type=Integer,Description="Alternate allele count for samples of African-American ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AC_AMR,Number=A,Type=Integer,Description="Alternate allele count for samples of Latino ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AC_ASJ,Number=A,Type=Integer,Description="Alternate allele count for samples of Ashkenazi Jewish ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AC_EAS,Number=A,Type=Integer,Description="Alternate allele count for samples of East Asian ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AC_FIN,Number=A,Type=Integer,Description="Alternate allele count for samples of Finnish ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AC_NFE,Number=A,Type=Integer,Description="Alternate allele count for samples of non-Finnish European ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AC_OTH,Number=A,Type=Integer,Description="Alternate allele count for samples of uncertain ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AF,Number=A,Type=Float,Description="Alternate allele frequency in samples (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AF_AFR,Number=A,Type=Float,Description="Alternate allele frequency in samples of African-American ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AF_AMR,Number=A,Type=Float,Description="Alternate allele frequency in samples of Latino ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AF_ASJ,Number=A,Type=Float,Description="Alternate allele frequency in samples of Ashkenazi Jewish ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AF_EAS,Number=A,Type=Float,Description="Alternate allele frequency in samples of East Asian ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AF_FIN,Number=A,Type=Float,Description="Alternate allele frequency in samples of Finnish ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AF_NFE,Number=A,Type=Float,Description="Alternate allele frequency in samples of non-Finnish European ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AF_OTH,Number=A,Type=Float,Description="Alternate allele frequency in samples of uncertain ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AN,Number=A,Type=Integer,Description="Total number of alleles in samples (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AN_AFR,Number=A,Type=Integer,Description="Total number of alleles in samples of African-American ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AN_AMR,Number=A,Type=Integer,Description="Total number of alleles in samples of Latino ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AN_ASJ,Number=A,Type=Integer,Description="Total number of alleles in samples of Ashkenazi Jewish ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AN_EAS,Number=A,Type=Integer,Description="Total number of alleles in samples of East Asian ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AN_FIN,Number=A,Type=Integer,Description="Total number of alleles in samples of Finnish ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AN_NFE,Number=A,Type=Integer,Description="Total number of alleles in samples of non-Finnish European ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
-##INFO=<ID=gnomADg_AN_OTH,Number=A,Type=Integer,Description="Total number of alleles in samples of uncertain ancestry (from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADe_AC,Number=A,Type=Integer,Description="Alternate allele count for samples (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AC_AFR,Number=A,Type=Integer,Description="Alternate allele count for samples of African-American ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AC_AMR,Number=A,Type=Integer,Description="Alternate allele count for samples of Latino ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AC_ASJ,Number=A,Type=Integer,Description="Alternate allele count for samples of Ashkenazi Jewish ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AC_EAS,Number=A,Type=Integer,Description="Alternate allele count for samples of East Asian ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AC_FIN,Number=A,Type=Integer,Description="Alternate allele count for samples of Finnish ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AC_NFE,Number=A,Type=Integer,Description="Alternate allele count for samples of non-Finnish European ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AC_OTH,Number=A,Type=Integer,Description="Alternate allele count for samples of uncertain ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AC_SAS,Number=A,Type=Integer,Description="Alternate allele count for samples of South Asian ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AF,Number=A,Type=Float,Description="Alternate allele frequency in samples (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AF_AFR,Number=A,Type=Float,Description="Alternate allele frequency in samples of African-American ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AF_AMR,Number=A,Type=Float,Description="Alternate allele frequency in samples of Latino ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AF_ASJ,Number=A,Type=Float,Description="Alternate allele frequency in samples of Ashkenazi Jewish ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AF_EAS,Number=A,Type=Float,Description="Alternate allele frequency in samples of East Asian ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AF_FIN,Number=A,Type=Float,Description="Alternate allele frequency in samples of Finnish ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AF_NFE,Number=A,Type=Float,Description="Alternate allele frequency in samples of non-Finnish European ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AF_OTH,Number=A,Type=Float,Description="Alternate allele frequency in samples of uncertain ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AF_SAS,Number=A,Type=Float,Description="Alternate allele frequency in samples of South Asian ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AN,Number=A,Type=Integer,Description="Total number of alleles in samples (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AN_AFR,Number=A,Type=Integer,Description="Total number of alleles in samples of African-American ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AN_AMR,Number=A,Type=Integer,Description="Total number of alleles in samples of Latino ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AN_ASJ,Number=A,Type=Integer,Description="Total number of alleles in samples of Ashkenazi Jewish ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AN_EAS,Number=A,Type=Integer,Description="Total number of alleles in samples of East Asian ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AN_FIN,Number=A,Type=Integer,Description="Total number of alleles in samples of Finnish ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AN_NFE,Number=A,Type=Integer,Description="Total number of alleles in samples of non-Finnish European ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AN_OTH,Number=A,Type=Integer,Description="Total number of alleles in samples of uncertain ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADe_AN_SAS,Number=A,Type=Integer,Description="Total number of alleles in samples of South Asian ancestry (from variation/gnomad_exome.vcf.gz)">
+##INFO=<ID=gnomADg_AC,Number=A,Type=Integer,Description="Alternate allele count for samples (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AC_AFR,Number=A,Type=Integer,Description="Alternate allele count for samples of African-American ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AC_AMR,Number=A,Type=Integer,Description="Alternate allele count for samples of Latino ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AC_ASJ,Number=A,Type=Integer,Description="Alternate allele count for samples of Ashkenazi Jewish ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AC_EAS,Number=A,Type=Integer,Description="Alternate allele count for samples of East Asian ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AC_FIN,Number=A,Type=Integer,Description="Alternate allele count for samples of Finnish ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AC_NFE,Number=A,Type=Integer,Description="Alternate allele count for samples of non-Finnish European ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AC_OTH,Number=A,Type=Integer,Description="Alternate allele count for samples of uncertain ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AF,Number=A,Type=Float,Description="Alternate allele frequency in samples (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AF_AFR,Number=A,Type=Float,Description="Alternate allele frequency in samples of African-American ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AF_AMR,Number=A,Type=Float,Description="Alternate allele frequency in samples of Latino ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AF_ASJ,Number=A,Type=Float,Description="Alternate allele frequency in samples of Ashkenazi Jewish ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AF_EAS,Number=A,Type=Float,Description="Alternate allele frequency in samples of East Asian ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AF_FIN,Number=A,Type=Float,Description="Alternate allele frequency in samples of Finnish ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AF_NFE,Number=A,Type=Float,Description="Alternate allele frequency in samples of non-Finnish European ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AF_OTH,Number=A,Type=Float,Description="Alternate allele frequency in samples of uncertain ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AN,Number=A,Type=Integer,Description="Total number of alleles in samples (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AN_AFR,Number=A,Type=Integer,Description="Total number of alleles in samples of African-American ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AN_AMR,Number=A,Type=Integer,Description="Total number of alleles in samples of Latino ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AN_ASJ,Number=A,Type=Integer,Description="Total number of alleles in samples of Ashkenazi Jewish ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AN_EAS,Number=A,Type=Integer,Description="Total number of alleles in samples of East Asian ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AN_FIN,Number=A,Type=Integer,Description="Total number of alleles in samples of Finnish ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AN_NFE,Number=A,Type=Integer,Description="Total number of alleles in samples of non-Finnish European ancestry (from variation/gnomad_genome.vcf.gz)">
+##INFO=<ID=gnomADg_AN_OTH,Number=A,Type=Integer,Description="Total number of alleles in samples of uncertain ancestry (from variation/gnomad_genome.vcf.gz)">
 ##INFO=<ID=rs_ids,Number=.,Type=String,Description="calculated by concat of overlapping values in field ID from /opt/analysis/bcbio/genomes/Hsapiens/GRCh37/variation/dbsnp-151.vcf.gz">
 ##INFO=<ID=technology.illumina,Number=1,Type=Float,Description="Fraction of observations supporting the alternate observed in reads from illumina">
 ##FORMAT=<ID=AD,Number=.,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
