@@ -11,6 +11,7 @@ my $filename=shift;
 my $disorderline;
 my $genesymbol;
 
+
 my %DisorderToGene;
 my %GeneToDisorder;
 
@@ -22,7 +23,7 @@ foreach my $disorder ($dom->findnodes('/DisorderList/Disorder')){
 
     foreach my $gene ($disorder->findnodes("./DisorderGeneAssociationList/DisorderGeneAssociation/Gene")){
         $genesymbol=$gene->findvalue("./Symbol");        
-
+        
     $DisorderToGene{$disorderline}=$genesymbol;
     }
 }
