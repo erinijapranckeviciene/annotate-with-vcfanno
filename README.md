@@ -25,18 +25,17 @@ Annotated vcf files in [bcbio-nextgen](https://bcbio-nextgen.readthedocs.io/en/l
 [gemini](https://gemini.readthedocs.io/en/latest/index.html) sqlite3 database, in which INFO fields from vcf header become columns in variant table.
 
 To create geminin db offline with [vcf2db.py](https://github.com/quinlan-lab/vcf2db) you will need vcf and ped files and follow the provided instructions. 
-The created gemini db can be queried with sqlite3 SQL statements to extract required fields. 
-The hypothetical family.db on which some queries are shown here was created as folows:
+SQL statements can be used to extract required fields from gemini db. The hypothetical geminin family.db was created as folows:
 
 ```
 vcf2db.py family.vcf family.ped family.db
 ```
 
-The *gemini-query-with-grouping.sh* and *gemini-query-with-grouping-platypus-first.sh* examples show some queries for family.db created from family.vcf file
-annotated by identifiers using cond and lua files from this repository. The *gemini-query-answer-examples* folder contains several answered queries derived as:
+The *gemini-query-with-grouping.sh* and *gemini-query-with-grouping-platypus-first.sh* examples show how to make query to family.db created from vcf file
+annotated by vcfanno using *conf* and *lua* from this repository. The *gemini-query-answer-examples* folder shows examples of queries derived as:
 
 ```
-sh gemini-query-with-grouping.sh family.db | head -n5 | datamash transpose | cat -n > gemini-query-answer-examples/query-answer1-example.csv
+sh gemini-query-with-grouping.sh family.db | head -n5 | datamash transpose | cat -n > query-answer1-example.csv
 ```
 
 
