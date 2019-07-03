@@ -1,7 +1,9 @@
 #!/bin/bash
 #  gemini query basis from https://github.com/naumenko-sa/cre/blob/master/cre.sh lines 154, 155
 ################################################################################################
-#  Modification : self sufficienr query to generate report
+#  Modification : self sufficient query to generate report
+#  Selects only rows  in which platypus was first caller and  the result shows that 
+#  dp field is missing in  gemini db from platypus INFO and FORMAT
 ################################################################################################
 
 # Input file
@@ -92,11 +94,5 @@ sQuery1="select \
 #echo ${sQuery1}
 #echo ${file}
 
-# v.depth = 'None' see https://github.com/chapmanb/bcbio-nextgen/issues/1894
-
     gemini query --header -q "${sQuery1}" $file
 
-
-#### Something is wrong with these lines
-## Worked before, now it is triggering an error wrong blob initialization:
-#        group_concat( i.gene || '; exon: ' || i.exon || ';' || i.hgvsc || ';' || i.hgvsp , '|')  as info,\

@@ -1,7 +1,10 @@
 #!/bin/bash
 #  gemini query basis from https://github.com/naumenko-sa/cre/blob/master/cre.sh lines 154, 155
+#  Sergey's comment: 
+#  v.depth = 'None' see https://github.com/chapmanb/bcbio-nextgen/issues/1894
+
 ################################################################################################
-#  Modification : self sufficienr query to generate report
+#  Modification made here : self sufficient query to  extract all required columns
 ################################################################################################
 
 # Input file
@@ -82,6 +85,7 @@ sQuery1="select \
         group_concat(i.polyphen_score,'|') as polyphen_score_geminii,\
         group_concat(i.sift_pred,'|') as sift_pred_geminii,\
         group_concat(i.sift_score, '|') as sift_score_geminii,\
+        group_concat( i.gene || '; exon: ' || i.exon || ';' || i.hgvsc || ';' || i.hgvsp, '|')  as info_geminii,\
         v.variant_id as Variant_id_v from variants v, variant_impacts i where\
  ( (v.variant_id=i.variant_id) and\
    ( (i.impact_severity in ('HIGH', 'MED')) and (v.impact_severity in ('HIGH', 'MED') ) ) and\
@@ -92,11 +96,5 @@ sQuery1="select \
 #echo ${sQuery1}
 #echo ${file}
 
-# v.depth = 'None' see https://github.com/chapmanb/bcbio-nextgen/issues/1894
-
     gemini query --header -q "${sQuery1}" $file
 
-
-#### Something is wrong with these lines
-## Worked before, now it is triggering an error wrong blob initialization:
-#        group_concat( i.gene || '; exon: ' || i.exon || ';' || i.hgvsc || ';' || i.hgvsp , '|')  as info,\
