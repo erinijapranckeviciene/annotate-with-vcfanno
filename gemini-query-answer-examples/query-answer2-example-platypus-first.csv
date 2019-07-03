@@ -1,0 +1,79 @@
+     1	Chrom_geminiv	5	6	6	6
+     2	Pos_geminiv	141694728	33275943	90577706	90577725
+     3	Ref_geminiv	T	T	TGACATCTTTGCCCAG	TGGA
+     4	Alt_geminiv	G	A	T	T
+     5	Variation_geminiv	splice_region_variant	splice_region_variant	inframe_deletion	inframe_deletion
+     6	Depth_dp_geminiv	None	None	None	None
+     7	Depth_nr_geminiv	14	3	26	25
+     8	Depth_nf_geminiv	0	0	10	10
+     9	Depth_tc_geminiv	42	7	115	110
+    10	Depth_tcf_geminiv	19	0	20	22
+    11	Depth_tcr_geminiv	23	7	95	88
+    12	Depth_tr_geminiv	14	3	36	35
+    13	Quality_geminiv	308.0	15.0	2967.0	2948.0
+    14	Gene_geminiv	SPRY4	TAPBP	CASP8AP2	CASP8AP2
+    15	Clinvar_geminiv	None	None	None	None
+    16	Entrezid_cheo	81848	None	9994	9994
+    17	Geneinfo_cheo	"Sym:SPRY4|Syn:HH17-|Desc:sprouty_RTK_signaling_antagonist_4|ensg_gi:ENSG00000187678"	None	"Sym:CASP8AP2|Syn:CED-4|FLASH|RIP25-|Desc:caspase_8_associated_protein_2|ensg_gi:ENSG00000118412"	"Sym:CASP8AP2|Syn:CED-4|FLASH|RIP25-|Desc:caspase_8_associated_protein_2|ensg_gi:ENSG00000118412"
+    18	Mim_cheo	"Mim:607984|Sym:SPRY4|OmimEnsg:ENSG00000187678"	None	"Mim:606880|Sym:CASP8AP2|OmimEnsg:ENSG00000118412"	"Mim:606880|Sym:CASP8AP2|OmimEnsg:ENSG00000118412"
+    19	Omim_cheo	"Mim:607984|Sym:SPRY4,_HH17|OmimG:Sprouty,_Drosophila,_homolog_of|OmimEnsg:ENSG00000187678|OmimPhen:Hypogonadotropic_hypogonadism_17_with_or_without_anosmia,_615266_(3),_Autosomal_dominant"	None	"Mim:606880|Sym:CASP8AP2,_FLASH|OmimG:Caspase_8-associated_protein_2|OmimEnsg:ENSG00000118412|OmimPhen:NA"	"Mim:606880|Sym:CASP8AP2,_FLASH|OmimG:Caspase_8-associated_protein_2|OmimEnsg:ENSG00000118412|OmimPhen:NA"
+    20	Orpha_cheo	"Sym:SPRY4|Orpha:'Non-seminomatous_germ_cell_tumor_of_testis,_ORPHAID:_363494'"	None	None	None
+    21	Myopathyg_cheo	None	None	None	None
+    22	Exon_names_cheo	NM_030964.3_cds_0_0_chr5_141693774_r	None	NM_012115.3_cds_7_0_chr6_90575672_f,NM_001137667.1_cds_7_0_chr6_90575672_f,NM_001137668.1_cds_7_0_chr6_90575672_f	NM_012115.3_cds_7_0_chr6_90575672_f,NM_001137667.1_cds_7_0_chr6_90575672_f,NM_001137668.1_cds_7_0_chr6_90575672_f
+    23	Ensembl_transcript_id_geminiv	ENST00000344120	ENST00000475304	NM_001137667.1	NM_001137667.1
+    24	AA_position_geminiv			1566-1571/1982	1573/1982
+    25	Exon_geminiv			8/10	8/10
+    26	Protein_domains_geminiv				
+    27	rsIDs_geminiv	rs1204164587	rs942903116	rs781114556	rs779785481
+    28	Gnomad_af_cheo	-1.0	-1.0	-1.0	-1.0
+    29	Gnomad_af_popmax_cheo	-1.0	-1.0	-1.0	-1.0
+    30	Gnomad_ac_cheo	None	None	None	None
+    31	Gnomad_an_cheo	None	None	None	None
+    32	Sift_score_geminiv	None	None	None	None
+    33	Polyphen_score_geminiv	None	None	None	None
+    34	Cadd_score_cheo	None	None	None	None
+    35	Vest3_score_cheo	None	None	None	None
+    36	Revel_score_cheo	None	None	None	None
+    37	Gerp_score_cheo	None	None	None	None
+    38	AA_change_geminiv			LTSLPR/L	G/-
+    39	Codon_change_geminiv	ENST00000344120.4:c.23-8A>C	ENST00000475304.1:c.470-8A>T	NM_001137667.1:c.4698_4712del	NM_001137667.1:c.4717_4719del
+    40	Gerp_score_cheo	None	None	None	None
+    41	Phastcons20way_mammalian_cheo	None	None	None	None
+    42	Conserved_in_20_mammals_cheo	None	None	None	None
+    43	Nucleotide_change_ensembl_geminiv	ENST00000344120.4:c.23-8A>C	ENST00000475304.1:c.470-8A>T	NM_001137667.1:c.4698_4712del	NM_001137667.1:c.4717_4719del
+    44	Protein_change_ensembl_geminiv			NP_001131139.1:p.Thr1567_Arg1571del	NP_001131139.1:p.Gly1573del
+    45	Old_multiallelic_geminiv	None	None	None	None
+    46	Callers_geminiv	platypus,freebayes	platypus,freebayes	platypus,freebayes	platypus,freebayes
+    47	number_of_impacts	11	1	3	3
+    48	gene_geminii	SPRY4|SPRY4|SPRY4|SPRY4|SPRY4|SPRY4|SPRY4|SPRY4|SPRY4|SPRY4|SPRY4	TAPBP	CASP8AP2|CASP8AP2|CASP8AP2	CASP8AP2|CASP8AP2|CASP8AP2
+    49	transcript_geminii	ENST00000344120|ENST00000434127|ENST00000503582|ENST00000511815|NM_001127496.1|NM_001293289.1|NM_001293290.1|NM_030964.3|XM_005268517.1|XM_005268518.1|XM_005268519.1	ENST00000475304	NM_001137667.1|NM_001137668.1|NM_012115.3	NM_001137667.1|NM_001137668.1|NM_012115.3
+    50	is_exonic_geminii	0|0|0|0|0|0|0|0|0|0|0	0	1|1|1	1|1|1
+    51	is_coding_geminii	0|0|0|0|0|0|0|0|0|0|0	0	1|1|1	1|1|1
+    52	exon_geminii	||||||||||		8/10|8/10|8/10	8/10|8/10|8/10
+    53	codon_change_geminii	||||||||||		ttGACATCTTTGCCCAGa/tta|ttGACATCTTTGCCCAGa/tta|ttGACATCTTTGCCCAGa/tta	GGA/-|GGA/-|GGA/-
+    54	aa_change_geminii	||||||||||		LTSLPR/L|LTSLPR/L|LTSLPR/L	G/-|G/-|G/-
+    55	aa_length_geminii	||||||||||		1566-1571/1982|1566-1571/1982|1566-1571/1982	1573/1982|1573/1982|1573/1982
+    56	biotype_geminii	protein_coding|protein_coding|processed_transcript|protein_coding|protein_coding|protein_coding|protein_coding|protein_coding|protein_coding|protein_coding|protein_coding	protein_coding	protein_coding|protein_coding|protein_coding	protein_coding|protein_coding|protein_coding
+    57	impact_geminii	LOW|LOW|LOW|LOW|LOW|LOW|LOW|LOW|LOW|LOW|LOW	LOW	MODERATE|MODERATE|MODERATE	MODERATE|MODERATE|MODERATE
+    58	impact_so_geminii	splice_region_variant|splice_region_variant|splice_region_variant|splice_region_variant|splice_region_variant|splice_region_variant|splice_region_variant|splice_region_variant|splice_region_variant|splice_region_variant|splice_region_variant	splice_region_variant	inframe_deletion|inframe_deletion|inframe_deletion	inframe_deletion|inframe_deletion|inframe_deletion
+    59	impact_severity_geminii	MED|MED|MED|MED|MED|MED|MED|MED|MED|MED|MED	MED	MED|MED|MED	MED|MED|MED
+    60	ccds_geminii	CCDS4274.1|CCDS47296.1|||||||||		||	||
+    61	hgvsc_geminii	ENST00000344120.4:c.23-8A>C|ENST00000434127.2:c.-47-8A>C|ENST00000503582.1:n.529-8A>C|ENST00000511815.1:c.-47-8A>C|NM_001127496.1:c.-47-8A>C|NM_001293289.1:c.-47-8A>C|NM_001293290.1:c.-47-8A>C|NM_030964.3:c.23-8A>C|XM_005268517.1:c.23-8A>C|XM_005268518.1:c.-47-8A>C|XM_005268519.1:c.-47-8A>C	ENST00000475304.1:c.470-8A>T	NM_001137667.1:c.4698_4712del|NM_001137668.1:c.4698_4712del|NM_012115.3:c.4698_4712del	NM_001137667.1:c.4717_4719del|NM_001137668.1:c.4717_4719del|NM_012115.3:c.4717_4719del
+    62	hgvsp_geminii	||||||||||		NP_001131139.1:p.Thr1567_Arg1571del|NP_001131140.1:p.Thr1567_Arg1571del|NP_036247.1:p.Thr1567_Arg1571del	NP_001131139.1:p.Gly1573del|NP_001131140.1:p.Gly1573del|NP_036247.1:p.Gly1573del
+    63	maxentscan_alt_geminii	11.615|11.615|11.615|11.615|11.615|11.615|11.615|11.615|11.615|11.615|11.615	8.409	||	||
+    64	maxentscan_diff_geminii	-1.025|-1.025|-1.025|-1.025|-1.025|-1.025|-1.025|-1.025|-1.025|-1.025|-1.025	-1.128	||	||
+    65	maxentscan_ref_geminii	10.590|10.590|10.590|10.590|10.590|10.590|10.590|10.590|10.590|10.590|10.590	7.280	||	||
+    66	spliceregion_geminii	splice_polypyrimidine_tract_variant|splice_polypyrimidine_tract_variant|splice_polypyrimidine_tract_variant|splice_polypyrimidine_tract_variant|splice_polypyrimidine_tract_variant|splice_polypyrimidine_tract_variant|splice_polypyrimidine_tract_variant|splice_polypyrimidine_tract_variant|splice_polypyrimidine_tract_variant|splice_polypyrimidine_tract_variant|splice_polypyrimidine_tract_variant	splice_polypyrimidine_tract_variant	||	||
+    67	polyphen_pred_geminii	||||||||||		||	||
+    68	polyphen_score_geminii	None	None	None	None
+    69	sift_pred_geminii	||||||||||		||	||
+    70	sift_score_geminii	None	None	None	None
+    71	Variant_id_v	400103	439837	465619	465620
+    72	gts.INDIVIDUAL1	G/T	./.	T/TGACATCTTTGCCCAG	T/TGGA
+    73	gts.INDIVIDUAL2	G/T	A/T	T/TGACATCTTTGCCCAG	T/TGGA
+    74	gt_alt_depths.INDIVIDUAL1	-1	-1	-1	-1
+    75	gt_alt_depths.INDIVIDUAL2	-1	-1	-1	-1
+    76	gt_depths.INDIVIDUAL1	-1	-1	-1	-1
+    77	gt_depths.INDIVIDUAL2	-1	-1	-1	-1
+    78	gt_types.INDIVIDUAL1	1	2	1	1
+    79	gt_types.INDIVIDUAL2	1	1	1	1
