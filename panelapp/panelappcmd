@@ -1,0 +1,4 @@
+  526  curl -X GET "https://panelapp.genomicsengland.co.uk/api/v1/genes/" -H "accept: application/json" -H "X-CSRFToken: 2jiHyykQZ9bP99VNDUuttynOQVybs0T3xeUg2s50PR53xape4g9gVLabyKyjwL04"
+  527  curl -X GET "https://panelapp.genomicsengland.co.uk/api/v1/genes/" -H "accept: application/json" -H "X-CSRFToken: 2jiHyykQZ9bP99VNDUuttynOQVybs0T3xeUg2s50PR53xape4g9gVLabyKyjwL04" > response.json
+  528  ls
+  529  history | tail -n4 > panelapp/panelappcmd

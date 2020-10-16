@@ -1,0 +1,86 @@
+     1	variant_id	9	9	16
+     2	gene	WASH7P	WASH7P	OR4F5
+     3	ensembl_gene_id	None	None	None
+     4	transcript	ENST00000438504	ENST00000538476	ENST00000335137
+     5	is_exonic	0	0	1
+     6	is_coding	0	0	1
+     7	is_lof	0	0	0
+     8	is_splicing	1	1	0
+     9	is_canonical	1	0	1
+    10	exon			1/1
+    11	codon_change			tTt/tGt
+    12	aa_change			F/C
+    13	aa_length			113/305
+    14	biotype	unprocessed_pseudogene	unprocessed_pseudogene	protein_coding
+    15	impact	LOW	LOW	MODERATE
+    16	impact_so	splice_region_variant	splice_region_variant	missense_variant
+    17	impact_severity	MED	MED	MED
+    18	polyphen_pred			probably_damaging
+    19	polyphen_score	None	None	0.984
+    20	sift_pred			deleterious
+    21	sift_score	None	None	0.01
+    22	allele	C	C	G
+    23	feature_type	Transcript	Transcript	Transcript
+    24	intron			
+    25	hgvsc	ENST00000438504.2:n.1141dup	ENST00000538476.1:n.1346dup	ENST00000335137.3:c.338T>G
+    26	hgvsp			ENSP00000334393.3:p.Phe113Cys
+    27	cdna_position	1141-1142/1783	1346-1347/1583	338/918
+    28	cds_position			338/918
+    29	existing_variation	rs557514207	rs557514207	rs140739101
+    30	allele_num	1	1	1
+    31	distance			
+    32	strand	-1	-1	1
+    33	flags			
+    34	variant_class	insertion	insertion	SNV
+    35	symbol_source	HGNC	HGNC	HGNC
+    36	hgnc_id	38034	38034	14825
+    37	tsl			
+    38	appris			
+    39	ccds			CCDS30547.1
+    40	ensp			ENSP00000334393
+    41	swissprot			Q8NH21
+    42	trembl			
+    43	uniparc			UPI0000041BC1
+    44	refseq_match			
+    45	source	Ensembl	Ensembl	Ensembl
+    46	given_ref			T
+    47	used_ref			T
+    48	bam_edit			
+    49	gene_pheno			
+    50	domains			hmmpanther:PTHR26451&hmmpanther:PTHR26451:SF72&Gene3D:1.20.1070.10&Superfamily_domains:SSF81321&Transmembrane_helices:TMhelix&Prints_domain:PR00237&PROSITE_patterns:PS00237&PROSITE_profiles:PS50262
+    51	hgvs_offset			
+    52	af	0.4411	0.4411	0.0190
+    53	afr_af	0.0431	0.0431	0.0015
+    54	amr_af	0.415	0.415	0.036
+    55	eas_af	0.8681	0.8681	0.003
+    56	eur_af	0.4652	0.4652	0.0497
+    57	sas_af	0.5327	0.5327	0.0153
+    58	aa_af			0.003663
+    59	ea_af			0.04571
+    60	gnomad_af			0.02436
+    61	gnomad_afr_af			0.003129
+    62	gnomad_amr_af			0.009178
+    63	gnomad_asj_af			0.01338
+    64	gnomad_eas_af			0
+    65	gnomad_fin_af			0.04895
+    66	gnomad_nfe_af			0.04092
+    67	gnomad_oth_af			0.02573
+    68	gnomad_sas_af			0.004991
+    69	max_af	0.8681	0.8681	0.0497
+    70	max_af_pops	EAS	EAS	EUR
+    71	clin_sig			
+    72	somatic			
+    73	pheno			
+    74	pubmed			
+    75	motif_name			
+    76	motif_pos			
+    77	high_inf_pos			
+    78	motif_score_change			
+    79	lof			
+    80	lof_filter			
+    81	lof_flags			
+    82	lof_info			
+    83	maxentscan_alt			
+    84	maxentscan_diff			
+    85	maxentscan_ref			
+    86	spliceregion	splice_polypyrimidine_tract_variant	splice_polypyrimidine_tract_variant	

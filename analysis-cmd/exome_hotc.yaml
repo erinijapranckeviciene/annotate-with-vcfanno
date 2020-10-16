@@ -1,0 +1,48 @@
+#bcbio-nextgen v1.2.0
+# Variant2 is used for WES and WGS. You can also add structural variant callers. In diagnostics 
+# regions for which you want analysis and need coverage
+# analysis_regions: /projects/bcbio/TwistExome/Twist_Exome_Target_hg38.bed
+globals:
+  analysis_regions: /projects/bcbio/TwistExome/Twist_Exome_Target_hg38_extended_100bp.bed
+  coverage_regions: /projects/bcbio/TwistExome/Twist_Exome_Target_hg38_extended_100bp.bed
+details:
+- algorithm:
+    aligner: bwa
+    effects: vep
+    effects_transcripts: all
+    mark_duplicates: true
+    realign: false
+    recalibrate: true
+    save_diskspace: true
+    coverage_interval: regional
+    coverage: coverage_regions
+    svcaller: [lumpy, manta, cnvkit]
+    variantcaller: gatk-haplotype
+    variant_regions: analysis_regions
+    exclude_regions: [altcontigs]
+    jointcaller: gatk-haplotype-joint
+    tools_on:
+      - vep_splicesite_annotations
+      - coverage_perbase
+      - gemini
+      - qualimap
+    tools_off:
+      - gatk4
+  analysis: variant2
+  description: S1430_19A10Z
+  files:
+  - /data/previous/WES/S1430/2019-09-11/19A10Z.1.fastq.gz
+  - /data/previous/WES/S1430/2019-09-11/19A10Z.2.fastq.gz
+  genome_build: hg38
+  metadata:
+    batch: 19A10Z
+fc_name: fc
+resources:
+  default:
+    cores: 64
+    memory: 2G
+    jvm_opts:
+    - -Xms750m
+    - -Xmx7000m
+upload:
+  dir: ../final
